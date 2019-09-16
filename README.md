@@ -38,17 +38,16 @@ I have taken DDD approach for development of this application. Unit tests are al
 but due to time limit on this assessment unit tests are not as rigorous that why I can't say 
 it's TDD :)
 
-> Please check promise package inside _infrastructure_ layer that includes functional and unit 
-tests (Rigorous testing example) :sunglasses:
-
 
 ## Domain Driven Architecture
 This application created using Domain Driven Model (Rich Domain Model). There are three layers 
 defined and for ease of understanding separated to relevant package name.
-    * __Application:__ contains endpoints (controllers) for two main functionality and determining health of application
-    * __Domain:__ contains our business logic that infrastructure layer implements and provides main business logic such
-    as: prediction to sell or not withing a week period window 
-    * __Infrastructure:__ contains API calls to Exchange Rates API that are being utilised in application layer
+
+ * __Application:__ contains endpoints (controllers) for two main functionality and determining health of application
+ 
+ * __Domain:__ contains our business logic that infrastructure layer implements and provides main business logic such as: prediction to sell or not withing a week period window 
+ 
+ * __Infrastructure:__ contains API calls to Exchange Rates API that are being utilised in application layer
 
 
 ## Design Patterns & SOLID Principles
